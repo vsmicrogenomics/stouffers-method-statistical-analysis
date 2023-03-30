@@ -1,3 +1,8 @@
+### stouffers_method.R
+
+### This R script performs statistical analysis on tab-separated input data and calculates the combined p-value for a group of entities using Stouffer's method. It reads the input data, removes any missing values, applies Stouffer's method to combine the p-values, and writes the results to a new tab-separated output file. The output file includes the entity names, combined p-values, and ranks.
+### Written by Vikas Sharma, 2023
+
 # Read input from tab-separated file
 p_values <- read.table("test.tsv", header = TRUE, row.names = 1, sep = "\t", na.strings = "None")
 
