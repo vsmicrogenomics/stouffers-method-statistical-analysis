@@ -5,4 +5,7 @@ The "stouffers_method.R" code is designed to perform statistical analysis on tab
 Test Data:
 The sample input data is a tab-separated table with 5 columns and 5 rows, representing the p-values for different organisms across 5 genes. Each value in the table represents the p-value of a statistical test for a gene in a specific organism. The value "None" in the table represents a missing value or NA.
 
-The Stouffer's method implementation code in R was written by ChatGPT based on the statistical method proposed by Stouffer et al. in 1949. This code can be used for research purposes and is provided as is without any warranty or support. If you use this code in your research work, please cite this GitHub repository.
+Acknowledgements: This code is based on Stouffer's method, a statistical method proposed by Stouffer et al. in 1949.
+
+If you are using this code, please cite it as follows: Sharma, V. (2023). stouffers-method-statistical-analysis [R script]. Retrieved from https://github.com/vsmicrogenomics/stouffers-method-statistical-analysis.
+
